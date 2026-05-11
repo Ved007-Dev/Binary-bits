@@ -134,7 +134,7 @@
             // Get the route data
             const routeData = routes[dest];
             if (!routeData) {
-                instructionText.innerText = "Unable to find route. Please try selecting a different destination. If this persists, contact support.";
+                instructionText.innerText = "Route not found. Please select a different destination.";
                 arrow.setAttribute("visible", "false");
                 return;
             }
