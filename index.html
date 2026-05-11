@@ -134,7 +134,7 @@
             // Get the route data
             const routeData = routes[dest];
             if (!routeData) {
-                instructionText.innerText = "Selected destination is unavailable.";
+                instructionText.innerText = "Destination not found. Please select a valid destination.";
                 arrow.setAttribute("visible", "false");
                 return;
             }
